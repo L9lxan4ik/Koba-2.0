@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    background-color:#f1f1f1 ;
+    color: #0f141e;
+
+    font-size: 16px ;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+}
+.avatar {  
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgb(15, 14, 14);
+    margin-right: 50px;
+
+}
+.info  {
+    color: #86898f;
+    margin-bottom: 20px;
+    background: auto;
+    display: flex;
+    padding: auto;
+}
+
+.container {
+ max-width: 750px;
+ margin: auto;
+ margin-top: 50px;
+ margin-bottom: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline; 
+}
+a:active {
+color: #1b0a58;
+}
+
+a:visited {
+    color: #86898f;
+}
+.card  {   
+    padding: 15px 20px;
+    background: #86898f;
+    margin-bottom: 20px;
+    border-radius: 28PX;
+}
+
+.card h2 {
+    padding-bottom: 30px;
+}
+
+.bg-yellow{
+    background: #fff9dc
+}
+
+.bg-red{
+    background: #ffe5e5
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li {
+    color: #86898f;
+    margin-bottom: 10px;
+}
+
+.bg-green{
+    background: #e5ffe7
+}
+
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: #86898f;
+}
+
+.table th {
+    padding-bottom: 20px;
+}
+
+.card h2 {
+ margin-bottom: 10px;   
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    color: #86898f;
+    font-size: 14px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    color: black;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+    background: transparent;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+width: 50%;
+margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+    margin-right: 0px;
+}
+
+.btn {
+    background: black;
+    color: #86898f;
+    padding: 15px 20px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
